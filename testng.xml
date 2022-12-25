@@ -1,0 +1,85 @@
+<suite parallel ="classes" name="Test" >
+    <listeners>
+        <listener class-name="TestComponents.Listeners"/>
+    </listeners>
+    <test name="Login Module Case 1" >
+        <classes>
+            <class name="Tests.LoginModule.Case_1"/>
+        </classes>
+    </test>
+    <test name="Login Module Case 2" >
+        <classes>
+            <class name="Tests.LoginModule.Case_2"/>
+        </classes>
+    </test>
+    <test name="Login Module Case 3" >
+        <classes>
+            <class name="Tests.LoginModule.Case_3"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 1" >
+        <classes>
+            <class name="Tests.EventModule.Case_1"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 2" >
+        <classes>
+            <class name="Tests.EventModule.Case_2"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 3" >
+        <classes>
+            <class name="Tests.EventModule.Case_3"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 4" >
+        <classes>
+            <class name="Tests.EventModule.Case_4"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 5" >
+        <classes>
+            <class name="Tests.EventModule.Case_5"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 6" >
+        <classes>
+            <class name="Tests.EventModule.Case_6"/>
+        </classes>
+    </test>
+    <test name="Event Module Case 7" >
+        <classes>
+            <class name="Tests.EventModule.Case_7"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module Case 1" >
+        <classes>
+            <class name="Tests.DashboardModule.Case_1"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module Case 2" >
+        <classes>
+            <class name="Tests.DashboardModule.Case_2"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module Case 3" >
+        <classes>
+            <class name="Tests.DashboardModule.Case_3"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module Case 4" >
+        <classes>
+            <class name="Tests.DashboardModule.Case_4"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module Case 5" >
+        <classes>
+            <class name="Tests.DashboardModule.Case_5"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module Case 6" >
+        <classes>
+            <class name="Tests.DashboardModule.Case_6"/>
+        </classes>
+    </test>
+</suite>
