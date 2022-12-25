@@ -1,0 +1,168 @@
+2022-12-25 17:49:08 INFO  Log:11 - ======== Start : Login Module Case 1 ========
+2022-12-25 17:49:10 INFO  Log:11 - checkLoginBtn Started
+2022-12-25 17:49:10 INFO  Log:11 - Login butonunun aktif oldugunu dogrular.
+2022-12-25 17:49:10 INFO  Log:11 - checkLoginBtn Passed
+2022-12-25 17:49:10 INFO  Log:11 - -----------------------
+2022-12-25 17:49:10 INFO  Log:11 - checkLoginFormHeaderText Started
+2022-12-25 17:49:10 INFO  Log:11 - Login formunun basligini kontrol eder.
+2022-12-25 17:49:10 INFO  Log:11 - checkLoginFormHeaderText Passed
+2022-12-25 17:49:10 INFO  Log:11 - -----------------------
+2022-12-25 17:49:10 INFO  Log:11 - checkLoginPageUrl Started
+2022-12-25 17:49:10 INFO  Log:11 - Dogru sayfada oldugumuzu dogrular.
+2022-12-25 17:49:10 INFO  Log:11 - checkLoginPageUrl Passed
+2022-12-25 17:49:10 INFO  Log:11 - -----------------------
+2022-12-25 17:49:10 INFO  Log:11 - checkPasswordField Started
+2022-12-25 17:49:10 INFO  Log:11 - Sifre alaninin aktif oldugunu dogrular.
+2022-12-25 17:49:10 INFO  Log:11 - checkPasswordField Passed
+2022-12-25 17:49:10 INFO  Log:11 - -----------------------
+2022-12-25 17:49:10 INFO  Log:11 - checkUserNameField Started
+2022-12-25 17:49:10 INFO  Log:11 - Kullanici adi alaninin aktif oldugunu dogrular.
+2022-12-25 17:49:10 INFO  Log:11 - checkUserNameField Passed
+2022-12-25 17:49:10 INFO  Log:11 - -----------------------
+2022-12-25 17:49:11 INFO  Log:11 - ======== Finish : Login Module Case 1 ========
+2022-12-25 17:49:11 INFO  Log:11 - ======== Start : Login Module Case 2 ========
+2022-12-25 17:49:13 INFO  Log:11 - checkRequiredPasswordMessage Started
+2022-12-25 17:49:13 INFO  Log:11 - Sifre girilmeden login butonuna basilirsa, hata mesajinin gosterildigini kontrol eder.
+2022-12-25 17:49:13 INFO  Log:11 - checkRequiredPasswordMessage Passed
+2022-12-25 17:49:13 INFO  Log:11 - -----------------------
+2022-12-25 17:49:13 INFO  Log:11 - checkRequiredUsernameMessage Started
+2022-12-25 17:49:13 INFO  Log:11 - Kullanici adi girilmeden login butonuna basilirsa, hata mesjainin gosterildigini kontrol eder.
+2022-12-25 17:49:13 INFO  Log:11 - checkRequiredUsernameMessage Passed
+2022-12-25 17:49:13 INFO  Log:11 - -----------------------
+2022-12-25 17:49:13 INFO  Log:11 - ======== Finish : Login Module Case 2 ========
+2022-12-25 17:49:13 INFO  Log:11 - ======== Start : Login Module Case 3 ========
+2022-12-25 17:49:15 INFO  Log:11 - checkDashboardPageUrl Started
+2022-12-25 17:49:15 INFO  Log:11 - Dogru sayfada oldugumuzu dogrular.
+2022-12-25 17:49:15 INFO  Log:11 - checkDashboardPageUrl Passed
+2022-12-25 17:49:15 INFO  Log:11 - -----------------------
+2022-12-25 17:49:15 INFO  Log:11 - checkSuccessfulLogin Started
+2022-12-25 17:49:15 INFO  Log:11 - Basarili bir sekilde giriş yapilirsa, hosgeldin mesajinin gronup gorunmedigini kontrol eder.
+2022-12-25 17:49:15 INFO  Log:11 - checkSuccessfulLogin Passed
+2022-12-25 17:49:15 INFO  Log:11 - -----------------------
+2022-12-25 17:49:16 INFO  Log:11 - ======== Finish : Login Module Case 3 ========
+2022-12-25 17:49:16 INFO  Log:11 - ======== Start : Event Module Case 1 ========
+2022-12-25 17:49:18 INFO  Log:11 - checkCreateEventHeaderText Started
+2022-12-25 17:49:18 INFO  Log:11 - Etkinlik olusturma basligini kontrol eder.
+2022-12-25 17:49:18 INFO  Log:11 - checkCreateEventHeaderText Passed
+2022-12-25 17:49:18 INFO  Log:11 - -----------------------
+2022-12-25 17:49:18 INFO  Log:11 - checkCreateEventPageUrl Started
+2022-12-25 17:49:18 INFO  Log:11 - Dogru sayfada oldugumuzu dogrular.
+2022-12-25 17:49:18 INFO  Log:11 - checkCreateEventPageUrl Passed
+2022-12-25 17:49:18 INFO  Log:11 - -----------------------
+2022-12-25 17:49:18 INFO  Log:11 - ======== Finish : Event Module Case 1 ========
+2022-12-25 17:49:18 INFO  Log:11 - ======== Start : Event Module Case 2 ========
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredEmailMessage Started
+2022-12-25 17:49:20 INFO  Log:11 - Bilgi girilmeden etkinlik olusturulmaya calisirsa, katilimci iletisim bilgisinin gerekli oldugu mesajini kontrol eder.
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredEmailMessage Passed
+2022-12-25 17:49:20 INFO  Log:11 - -----------------------
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredEventDateMessage Started
+2022-12-25 17:49:20 INFO  Log:11 - Bilgi girilmeden etkinlik olusturulmaya calisirsa, etkinlik tarihinin gerekli oldugu mesajini kontrol eder.
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredEventDateMessage Passed
+2022-12-25 17:49:20 INFO  Log:11 - -----------------------
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredEventNameMessage Started
+2022-12-25 17:49:20 INFO  Log:11 - Bilgi girilmeden etkinlik olusturulmaya calisirsa, etkinlik adinin gerekli oldugu mesajini kontrol eder.
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredEventNameMessage Passed
+2022-12-25 17:49:20 INFO  Log:11 - -----------------------
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredParticipantLastNameMessage Started
+2022-12-25 17:49:20 INFO  Log:11 - Bilgi girilmeden etkinlik olusturulmaya calisirsa, katilimci soyadının gerekli oldugu mesajini kontrol eder.
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredParticipantLastNameMessage Passed
+2022-12-25 17:49:20 INFO  Log:11 - -----------------------
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredParticipantNameMessage Started
+2022-12-25 17:49:20 INFO  Log:11 - Bilgi girilmeden etkinlik olusturulmaya calisirsa, katilimci adının gerekli oldugu mesajini kontrol eder.
+2022-12-25 17:49:20 INFO  Log:11 - checkRequiredParticipantNameMessage Passed
+2022-12-25 17:49:20 INFO  Log:11 - -----------------------
+2022-12-25 17:49:20 INFO  Log:11 - ======== Finish : Event Module Case 2 ========
+2022-12-25 17:49:20 INFO  Log:11 - ======== Start : Event Module Case 3 ========
+2022-12-25 17:49:22 INFO  Log:11 - checkNewParticipant Started
+2022-12-25 17:49:22 INFO  Log:11 - Etkinlige yeni katilimci ekleme durumunu kontrol eder.
+2022-12-25 17:49:22 INFO  Log:11 - checkNewParticipant Passed
+2022-12-25 17:49:22 INFO  Log:11 - -----------------------
+2022-12-25 17:49:22 INFO  Log:11 - ======== Finish : Event Module Case 3 ========
+2022-12-25 17:49:22 INFO  Log:11 - ======== Start : Event Module Case 4 ========
+2022-12-25 17:49:24 INFO  Log:11 - checkRemovedParticipantText Started
+2022-12-25 17:49:24 INFO  Log:11 - Eger etkinlikte hic katilimci yoksa gelecek hata mesajini kontrol eder.
+2022-12-25 17:49:24 INFO  Log:11 - checkRemovedParticipantText Passed
+2022-12-25 17:49:24 INFO  Log:11 - -----------------------
+2022-12-25 17:49:25 INFO  Log:11 - ======== Finish : Event Module Case 4 ========
+2022-12-25 17:49:25 INFO  Log:11 - ======== Start : Event Module Case 5 ========
+2022-12-25 17:49:28 INFO  Log:11 - checkDashboardPageUrl Started
+2022-12-25 17:49:28 INFO  Log:11 - Dogru sayfada oldugumuzu dogrular.
+2022-12-25 17:49:28 INFO  Log:11 - checkDashboardPageUrl Passed
+2022-12-25 17:49:28 INFO  Log:11 - -----------------------
+2022-12-25 17:49:28 INFO  Log:11 - checkSuccessfulMessage Started
+2022-12-25 17:49:28 INFO  Log:11 - Basarili bir sekilde etkinlik olusturulursa gelecek bilgilendirmeyi kontrol eder.
+2022-12-25 17:49:28 INFO  Log:11 - checkSuccessfulMessage Passed
+2022-12-25 17:49:28 INFO  Log:11 - -----------------------
+2022-12-25 17:49:28 INFO  Log:11 - ======== Finish : Event Module Case 5 ========
+2022-12-25 17:49:28 INFO  Log:11 - ======== Start : Event Module Case 6 ========
+2022-12-25 17:49:31 INFO  Log:11 - checkEditingEventPageUrl Started
+2022-12-25 17:49:31 INFO  Log:11 - Dogru sayfada oldugumuzu dogrular.
+2022-12-25 17:49:31 INFO  Log:11 - checkEditingEventPageUrl Passed
+2022-12-25 17:49:31 INFO  Log:11 - -----------------------
+2022-12-25 17:49:31 INFO  Log:11 - checkUpdateEventText Started
+2022-12-25 17:49:31 INFO  Log:11 - Edit butonuna bastigimizda etkinlik bilgilerinin guncellenebildigini kontrol eder.
+2022-12-25 17:49:31 INFO  Log:11 - checkUpdateEventText Passed
+2022-12-25 17:49:31 INFO  Log:11 - -----------------------
+2022-12-25 17:49:32 INFO  Log:11 - ======== Finish : Event Module Case 6 ========
+2022-12-25 17:49:32 INFO  Log:11 - ======== Start : Event Module Case 7 ========
+2022-12-25 17:49:35 INFO  Log:11 - checkDashboardPageUrl Started
+2022-12-25 17:49:35 INFO  Log:11 - Dogru sayfada oldugumuzu dogrular.
+2022-12-25 17:49:35 INFO  Log:11 - checkDashboardPageUrl Passed
+2022-12-25 17:49:35 INFO  Log:11 - -----------------------
+2022-12-25 17:49:35 INFO  Log:11 - checkUpdatedMessage Started
+2022-12-25 17:49:35 INFO  Log:11 - Etkinlik basarili bir sekilde guncellenince gelecek bilgilendirme mesajini kontrol eder.
+2022-12-25 17:49:35 INFO  Log:11 - checkUpdatedMessage Passed
+2022-12-25 17:49:35 INFO  Log:11 - -----------------------
+2022-12-25 17:49:36 INFO  Log:11 - ======== Finish : Event Module Case 7 ========
+2022-12-25 17:49:36 INFO  Log:11 - ======== Start : Dashboard Module Case 1 ========
+2022-12-25 17:49:37 INFO  Log:11 - checkDashboardPageUrl Started
+2022-12-25 17:49:37 INFO  Log:11 - Doğru sayfada olduğumuzu dogrular.
+2022-12-25 17:49:37 INFO  Log:11 - checkDashboardPageUrl Passed
+2022-12-25 17:49:37 INFO  Log:11 - -----------------------
+2022-12-25 17:49:37 INFO  Log:11 - checkSuccessfulLogin Started
+2022-12-25 17:49:37 INFO  Log:11 - Basarili giris yapildiginda dashboard sayfasina yönlendirildiğimizi, Hosgeldin mesaji ile kontrol eder.
+2022-12-25 17:49:37 INFO  Log:11 - checkSuccessfulLogin Passed
+2022-12-25 17:49:37 INFO  Log:11 - -----------------------
+2022-12-25 17:49:38 INFO  Log:11 - ======== Finish : Dashboard Module Case 1 ========
+2022-12-25 17:49:38 INFO  Log:11 - ======== Start : Dashboard Module Case 2 ========
+2022-12-25 17:49:39 INFO  Log:11 - checkLoginFormHeaderText Started
+2022-12-25 17:49:39 INFO  Log:11 - Basarisiz giris yapilirsa tekrar login sayfasina yonlendirildigimizi kontrol eder.
+2022-12-25 17:49:39 INFO  Log:11 - checkLoginFormHeaderText Passed
+2022-12-25 17:49:39 INFO  Log:11 - -----------------------
+2022-12-25 17:49:39 INFO  Log:11 - checkLoginPageUrl Started
+2022-12-25 17:49:39 INFO  Log:11 - Dogru sayfada olduğumuzu dogrular.
+2022-12-25 17:49:39 INFO  Log:11 - checkLoginPageUrl Passed
+2022-12-25 17:49:39 INFO  Log:11 - -----------------------
+2022-12-25 17:49:40 INFO  Log:11 - ======== Finish : Dashboard Module Case 2 ========
+2022-12-25 17:49:40 INFO  Log:11 - ======== Start : Dashboard Module Case 3 ========
+2022-12-25 17:49:42 INFO  Log:11 - checkIsThereAnyEvent Started
+2022-12-25 17:49:42 INFO  Log:11 - Etkinligin basarili bir sekilde olusturuldugunu kontrol eder.
+2022-12-25 17:49:42 INFO  Log:11 - checkIsThereAnyEvent Passed
+2022-12-25 17:49:42 INFO  Log:11 - -----------------------
+2022-12-25 17:49:42 INFO  Log:11 - checkNotificationMessage Started
+2022-12-25 17:49:42 INFO  Log:11 - Eger hic etkinlik yoksa gelecek bilgilendirme mesajini kontrol eder.
+2022-12-25 17:49:42 INFO  Log:11 - checkNotificationMessage Passed
+2022-12-25 17:49:42 INFO  Log:11 - -----------------------
+2022-12-25 17:49:42 INFO  Log:11 - ======== Finish : Dashboard Module Case 3 ========
+2022-12-25 17:49:42 INFO  Log:11 - ======== Start : Dashboard Module Case 4 ========
+2022-12-25 17:49:44 INFO  Log:11 - checkAmIInEditingEventPage Started
+2022-12-25 17:49:44 INFO  Log:11 - Edit butonuna basildiginda, etkinlik bilgileri guncelleme sayfasina gidildigini kontrol eder.
+2022-12-25 17:49:45 INFO  Log:11 - checkAmIInEditingEventPage Passed
+2022-12-25 17:49:45 INFO  Log:11 - -----------------------
+2022-12-25 17:49:45 INFO  Log:11 - ======== Finish : Dashboard Module Case 4 ========
+2022-12-25 17:49:45 INFO  Log:11 - ======== Start : Dashboard Module Case 5 ========
+2022-12-25 17:49:47 INFO  Log:11 - checkIsThereAnyEvent Started
+2022-12-25 17:49:47 INFO  Log:11 - Tum etkinlikler silinirse listede etkinlik gozukmeyecegini kontrol eder.
+2022-12-25 17:49:47 INFO  Log:11 - checkIsThereAnyEvent Passed
+2022-12-25 17:49:47 INFO  Log:11 - -----------------------
+2022-12-25 17:49:47 INFO  Log:11 - checkNotificationMessage Started
+2022-12-25 17:49:47 INFO  Log:11 - Eger hic etkinlik yoksa gelecek bilgilendirme mesajini kontrol eder.
+2022-12-25 17:49:47 INFO  Log:11 - checkNotificationMessage Passed
+2022-12-25 17:49:47 INFO  Log:11 - -----------------------
+2022-12-25 17:49:47 INFO  Log:11 - ======== Finish : Dashboard Module Case 5 ========
+2022-12-25 17:49:47 INFO  Log:11 - ======== Start : Dashboard Module Case 6 ========
+2022-12-25 17:49:49 INFO  Log:11 - checkEventParticipants Started
+2022-12-25 17:49:49 INFO  Log:11 - Katilimcilar butonuna tiklayinca, etkinlikteki katilimcilarin gosterildigini kontrol eder.
+2022-12-25 17:49:50 INFO  Log:11 - checkEventParticipants Passed
+2022-12-25 17:49:50 INFO  Log:11 - -----------------------
+2022-12-25 17:49:51 INFO  Log:11 - ======== Finish : Dashboard Module Case 6 ========
