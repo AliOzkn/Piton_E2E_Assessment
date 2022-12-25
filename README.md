@@ -10,7 +10,7 @@ test işlemlerinin gerçekleştirildiği kısım olmak üzere 2 bölümden oluş
 - Aşağıdaki resimde görüldüğü üzere, web sitesi, PageObjects klasörü içinde 4 sınıfa ayrılmıştır.
   - <b>Login</b> sınıfında, kullanıcı girişi için gerekli metodları bulundurmaktadır.
   - <b>Dashboard</b> sınıfında, etkinlik oluşturma ve mevcut etkinlikleri düzenleme, silme, görme gibi işlemleri yapan metodlar vardır.
-  - <b>EventAsset</b> sınıfında, etkinlik ile ilgili doğrulamaları yapabilmemiz için metodlar tanımlanmıştır.
+  - <b>EventAssert</b> sınıfında, etkinlik ile ilgili doğrulamaları yapabilmemiz için metodlar tanımlanmıştır.
   - <b>EventInfo</b> sınıfında, etkinlik bilgilerini girebilmemiz için gerekli metodlar vardır.
   - <b>Components</b> paketindeki sınıflarda ise bu ana sınıflar için yardımcı ögeler bulunmaktadır.
 
@@ -46,7 +46,7 @@ Ayrıca testin başarısız olması durumunda alınan ekran görüntüleri yine 
  <img src="https://user-images.githubusercontent.com/107454207/209475510-7c2b2abc-37c8-4cec-bb33-d77338679e00.png"/>
 </p>
 
-Ayrıca raporlama için log4j vardır. ***application.log*** dosya adı ile ***reports*** klasörü içinde bulunmaktadır.
+Ayrıca raporlama için log4j vardır. ***application.log*** dosya adı ile ***Log4j*** klasörü içinde bulunmaktadır.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/107454207/209475567-81f35ead-2db4-417d-9d1a-229a6fb398e6.png"/>
