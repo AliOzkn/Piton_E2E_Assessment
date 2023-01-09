@@ -18,13 +18,11 @@ public class Case_1 extends EventModuleMethods {
 
     @Test(description = "Dogru sayfada oldugumuzu dogrular.")
     void checkCreateEventPageUrl() {
-        System.out.println(driver.getCurrentUrl());
         assertEquals(driver.getCurrentUrl(), "https://e2e-assessment.piton.com.tr/create-event");
     }
 
     @Test(description = "Etkinlik olusturma basligini kontrol eder.")
     void checkCreateEventHeaderText() {
-        System.out.println(eventAssert.isCreateEventTextDisplayed());
         assertTrue(eventAssert.isCreateEventTextDisplayed());
 
     }

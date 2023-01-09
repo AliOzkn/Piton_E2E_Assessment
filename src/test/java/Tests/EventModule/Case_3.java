@@ -14,7 +14,6 @@ public class Case_3 extends EventModuleMethods {
     void checkNewParticipant()  {
         createEvent();
         eventAssert.clickAddParticipantBtn();
-        System.out.println(eventAssert.count);
         assertTrue(eventAssert.count > 1);
     }
 }

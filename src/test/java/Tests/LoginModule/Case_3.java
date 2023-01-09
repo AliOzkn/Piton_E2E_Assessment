@@ -16,13 +16,11 @@ public class Case_3 extends LoginModuleMethods {
 
     @Test(description = "Dogru sayfada oldugumuzu dogrular.")
     void checkDashboardPageUrl() {
-        System.out.println(driver.getCurrentUrl());
         assertEquals(driver.getCurrentUrl(), "https://e2e-assessment.piton.com.tr/dashboard?navigatedFrom=login");
     }
 
     @Test(description = "Basarili bir sekilde giriş yapilirsa, hosgeldin mesajinin gronup gorunmedigini kontrol eder.")
     void checkSuccessfulLogin() {
-        System.out.println(login.getWelcomeMessage());
         assertEquals(login.getWelcomeMessage(), "Welcome Automation Test User");
     }
 

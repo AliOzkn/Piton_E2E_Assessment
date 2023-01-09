@@ -18,13 +18,11 @@ public class Case_5 extends EventModuleMethods {
 
     @Test(description = "Dogru sayfada oldugumuzu dogrular.")
     void checkDashboardPageUrl() {
-        System.out.println(driver.getCurrentUrl());
         assertEquals(driver.getCurrentUrl(), "https://e2e-assessment.piton.com.tr/dashboard");
     }
 
     @Test(description = "Basarili bir sekilde etkinlik olusturulursa gelecek bilgilendirmeyi kontrol eder.")
     void checkSuccessfulMessage() {
-        System.out.println(dashboard.getEventCreatedMessage());
         assertEquals(dashboard.getEventCreatedMessage(), "Event created successfully");
     }
 

@@ -14,7 +14,6 @@ public class Case_4 extends EventModuleMethods {
     void checkRemovedParticipantText() {
         createEvent();
         eventAssert.clickRemoveParticipantBtn();
-        System.out.println(eventAssert.getRemovedParticipantsText());
         assertEquals(eventAssert.getRemovedParticipantsText(), "Please add participant!");
     }
 }

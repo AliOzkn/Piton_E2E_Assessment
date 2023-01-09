@@ -14,7 +14,6 @@ public class Case_6 extends EventModuleMethods {
     void checkEventParticipants() {
         fillEventFields();
         dashboard.clickParticipantsBtn();
-        System.out.println(dashboard.getParticipantsInformation());
         assertTrue(dashboard.getParticipantsInformation().contains("Tester1 tester1@tester1.com"));
     }
 

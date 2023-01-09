@@ -21,13 +21,11 @@ public class Case_6 extends EventModuleMethods {
 
     @Test(description = "Dogru sayfada oldugumuzu dogrular.")
     void checkEditingEventPageUrl() {
-        System.out.println(driver.getCurrentUrl());
         assertEquals(driver.getCurrentUrl(), "https://e2e-assessment.piton.com.tr/edit-event/1");
     }
 
     @Test(description = "Edit butonuna bastigimizda etkinlik bilgilerinin guncellenebildigini kontrol eder.")
     void checkUpdateEventText() {
-        System.out.println(eventInfo.getUpdateEventBtnText());
         assertEquals(eventInfo.getUpdateEventBtnText(),"Update Event");
 
     }

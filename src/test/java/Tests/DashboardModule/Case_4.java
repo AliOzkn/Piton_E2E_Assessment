@@ -14,7 +14,6 @@ public class Case_4 extends EventModuleMethods {
     void checkAmIInEditingEventPage(){
         fillEventFields();
         dashboard.clickEditEventBtn();
-        System.out.println(driver.getCurrentUrl());
         assertEquals(driver.getCurrentUrl(),"https://e2e-assessment.piton.com.tr/edit-event/1");
     }
 }

@@ -20,12 +20,10 @@ public class Case_7 extends EventModuleMethods {
 
     @Test(description = "Dogru sayfada oldugumuzu dogrular.")
     void checkDashboardPageUrl(){
-        System.out.println(driver.getCurrentUrl());
         assertEquals(driver.getCurrentUrl(),"https://e2e-assessment.piton.com.tr/dashboard");
     }
     @Test(description = "Etkinlik basarili bir sekilde guncellenince gelecek bilgilendirme mesajini kontrol eder.")
     void checkUpdatedMessage(){
-        System.out.println(dashboard.getEventUpdatedMessage());
         assertEquals(dashboard.getEventUpdatedMessage(),"Event updated successfully");
     }
 
